@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Orientation : MonoBehaviour
+namespace KiddoApp
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Orientation : MonoBehaviour
     {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }

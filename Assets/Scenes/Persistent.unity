@@ -192,6 +192,7 @@ MonoBehaviour:
   - Settings
   - MainMenuGameplay
   - PlayArea
+  - PlayArea
 --- !u!114 &287177687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +207,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_gameDataFileName: 
   m_playerDataFileName: 
+  m_gameData:
+    m_Game1List: []
+  m_playerDataList:
+  - m_version: 0
+    m_isCurrentGame: 0
+    m_kidsData:
+      m_nextFileId: 0
+  m_playerData:
+    m_version: 1
+    m_isCurrentGame: 0
+    m_kidsData:
+      m_nextFileId: 0
   m_activeSaveGameSlotNumber: 0
 --- !u!1 &705507993
 GameObject:

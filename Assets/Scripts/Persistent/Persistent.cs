@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Persistent : MonoBehaviour
+
+namespace KiddoApp
 {
-    // unity awake
-    void Awake()
+    public class Persistent : MonoBehaviour
     {
-        // tell unity to not delete this game object when the scene unloads
-        DontDestroyOnLoad(this);
+        // unity awake
+        void Awake()
+        {
+            // tell unity to not delete this game object when the scene unloads
+            DontDestroyOnLoad(this);
+        }
     }
 }

@@ -3,29 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadNextScene : MonoBehaviour
+
+namespace KiddoApp
 {
-    public string nextScene;
-    public Animator transition;
-    public float transitionTime = 1.0f;
-
-    // Start is called before the first frame update
-    void Start()
+    public class LoadNextScene : MonoBehaviour
     {
-        StartCoroutine(LoadScene(nextScene));
-    }
+        public string nextScene;
+        public Animator transition;
+        public float transitionTime = 1.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            StartCoroutine(LoadScene(nextScene));
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
 
         IEnumerator LoadScene(string sceneName)
-    {
+        {
 
-        yield return new WaitForSeconds(transitionTime);
+            yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene(nextScene);
+        }
     }
 }
+

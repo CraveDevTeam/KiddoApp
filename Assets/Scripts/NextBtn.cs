@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextBtn : MonoBehaviour
+
+namespace KiddoApp
 {
-    public string nextScene;
-    // Start is called before the first frame update
-    void Start()
+    public class NextBtn : MonoBehaviour
     {
+        public string nextScene;
+        // Start is called before the first frame update
+        void Start()
+        {
 
-    }
+        }
 
-    public void NextLevelButton()
-    {
-        // load the next scene
-        SceneManager.LoadScene(nextScene);
+        public void NextLevelButton()
+        {
+            // load the next scene
+            SceneManager.LoadScene(nextScene);
+        }
     }
 }
+
