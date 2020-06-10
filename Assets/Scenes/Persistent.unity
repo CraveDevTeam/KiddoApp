@@ -208,7 +208,8 @@ MonoBehaviour:
   m_gameDataFileName: 
   m_playerDataFileName: 
   m_gameData:
-    m_Game1List: []
+    m_Game1List:
+    - HighScore: 0
   m_playerDataList:
   - m_version: 0
     m_isCurrentGame: 0

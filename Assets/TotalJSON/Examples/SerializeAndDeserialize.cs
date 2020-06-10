@@ -25,6 +25,8 @@ namespace Leguar.TotalJSON.Examples {
 
 			// Create example player (c# object)
 			ExamplePlayerObject examplePlayer = new ExamplePlayerObject();
+
+
 			examplePlayer.SetTestValues();
 
 			// Print out current player data
